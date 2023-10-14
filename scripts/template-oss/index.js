@@ -30,6 +30,7 @@ module.exports = {
     '/src/',
     '/static/',
     '/content/',
+    '/content-debug/',
     '/LICENSE*',
     '/*.md',
     '/gatsby-*.js',
