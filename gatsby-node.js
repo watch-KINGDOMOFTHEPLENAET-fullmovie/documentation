@@ -21,7 +21,7 @@ exports.onCreateNode = ({node, actions, getNode}) => {
   }
 }
 
-exports.onCreateWebpackConfig = ({stage, actions}) => {
+exports.onCreateWebpackConfig = ({actions}) => {
   actions.setWebpackConfig({
     resolve: {
       alias: {
@@ -30,10 +30,4 @@ exports.onCreateWebpackConfig = ({stage, actions}) => {
       extensions: ['.js'],
     },
   })
-
-  // if (stage === `build-javascript`) {
-  //   actions.setWebpackConfig({
-  //     devtool: false,
-  //   })
-  // }
 }
