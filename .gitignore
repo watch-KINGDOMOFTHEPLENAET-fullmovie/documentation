@@ -25,6 +25,7 @@
 !/CONTRIBUTING.md
 !/docs/
 !/gatsby-*.js
+!/jest*.js
 !/lib/
 !/LICENSE*
 !/map.js
@@ -34,7 +35,7 @@
 !/release-please-config.json
 !/scripts/
 !/SECURITY.md
-!/src/
+!/src
 !/static/
 !/tap-snapshots/
 !/test/
