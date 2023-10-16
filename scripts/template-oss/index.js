@@ -36,7 +36,6 @@ module.exports = {
     '/.reuse/',
     '/static/',
     '/content/',
-    '/content-debug/',
     '/LICENSE*',
     '/gatsby-*.js',
     '/jest*.js',
