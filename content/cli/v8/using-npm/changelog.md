@@ -9,8 +9,6 @@ redirect_from:
   - /cli/v8/misc/changelog
 ---
 
-# Changelog
-
 ## [8.19.4](https://github.com/npm/cli/compare/v8.19.3...v8.19.4) (2023-02-14)
 
 ### Documentation
@@ -166,7 +164,7 @@ redirect_from:
 ### Features
 
   * [`3c024ac`](https://github.com/npm/cli/commit/3c024ace60904c69e61da00e1fb56c0c1735804a) [#5000](https://github.com/npm/cli/pull/5000) feat: add npm query cmd ([@ruyadorno](https://github.com/ruyadorno)) ([@wraithgar](https://github.com/wraithgar))
-  * [`703dbbf`](https://github.com/npm/cli/commit/703dbbf2a8149dff72c848d60600889a76779828) [#4860](https://github.com/npm/cli/pull/4860) feat: add --replace-registry-host=<npmjs|always|never\> ([@fritzy](https://github.com/fritzy))
+  * [`703dbbf`](https://github.com/npm/cli/commit/703dbbf2a8149dff72c848d60600889a76779828) [#4860](https://github.com/npm/cli/pull/4860) feat: add --replace-registry-host=\<npmjs|always|never\> ([@fritzy](https://github.com/fritzy))
 
 ### Bug Fixes
 
@@ -572,7 +570,7 @@ redirect_from:
   * [`f76d4f2f6`](https://github.com/npm/cli/commit/f76d4f2f661bcc2534f541ee0e7d683155372baf) [#4609](https://github.com/npm/cli/pull/4609) fix: consolidate is-windows code ([@wraithgar](https://github.com/wraithgar))
   * [`57d8f75eb`](https://github.com/npm/cli/commit/57d8f75eb864486f6aa17bb3dd2f213b5c148073) [#4609](https://github.com/npm/cli/pull/4609) fix: consolidate node version support logic ([@wraithgar](https://github.com/wraithgar))
   * [`0a957f5e2`](https://github.com/npm/cli/commit/0a957f5e2fbcce51c407d22b19e38004d09c51af) [#4609](https://github.com/npm/cli/pull/4609) fix: consolidate path delimiter logic ([@wraithgar](https://github.com/wraithgar))
-  * [`738a40445`](https://github.com/npm/cli/commit/738a404454677b78b25ce82a8d2e4c1f46d57ffa) [#4609](https://github.com/npm/cli/pull/4609) fix: bump knownBroken to <12.5.0 ([@wraithgar](https://github.com/wraithgar))
+  * [`738a40445`](https://github.com/npm/cli/commit/738a404454677b78b25ce82a8d2e4c1f46d57ffa) [#4609](https://github.com/npm/cli/pull/4609) fix: bump knownBroken to \<12.5.0 ([@wraithgar](https://github.com/wraithgar))
   * [`8b65bfd5d`](https://github.com/npm/cli/commit/8b65bfd5d610a70e1a860936be1a47f3a3df7f32) [#4629](https://github.com/npm/cli/pull/4629) fix: return otplease fn results ([@wraithgar](https://github.com/wraithgar))
   * [`d8d374d23`](https://github.com/npm/cli/commit/d8d374d23d34c17e22b52afc1cfb5247cc7c3e1d) [#4632](https://github.com/npm/cli/pull/4632) fix: consolidate split-package-names ([@wraithgar](https://github.com/wraithgar))
   * [`cc0a2ec99`](https://github.com/npm/cli/commit/cc0a2ec9999b956ea654deaf68fd49ae4bf1a1c0) [#4611](https://github.com/npm/cli/pull/4611) fix: work better with system manpages (#4610) ([@d0sboots](https://github.com/d0sboots))
@@ -880,7 +878,7 @@ redirect_from:
   ([@manekinekko](https://github.com/manekinekko))
 * [`20c83fae7`](https://github.com/npm/cli/commit/20c83fae76ff4a051e4f6542a328f1c00cf071bb)
   [#4428](https://github.com/npm/cli/pull/4428)
-  docs: update docs for npm install <folder\>
+  docs: update docs for npm install \<folder\>
   ([@manekinekko](https://github.com/manekinekko))
 
 ## v8.5.0 (2022-02-10)

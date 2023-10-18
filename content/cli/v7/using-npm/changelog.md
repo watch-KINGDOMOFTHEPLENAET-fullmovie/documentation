@@ -847,7 +847,7 @@ redirect_from:
   ([@isaacs](https://github.com/isaacs))
 * [`64b13dd10`](https://github.com/npm/cli/commit/64b13dd1082b6ca7eac4e8e329bfdd8cd8daf157)
   [#3313](https://github.com/npm/cli/issues/3313)
-  Drop stale Python 3<-\>node-gyp remark
+  Drop stale Python 3\<-\>node-gyp remark
   ([@spencerwilson](https://github.com/spencerwilson))
 
 ### DEPENDENCIES
@@ -1627,7 +1627,7 @@ redirect_from:
   ([@ljharb](https://github.com/ljharb))
 * [`00afa3161`](https://github.com/npm/cli/commit/00afa316195f2db903146110a07ffdaec9bb6aa2)
   [#2718](https://github.com/npm/cli/issues/2718)
-  restore the prefix on output from `npm version <inc\>`
+  restore the prefix on output from `npm version \<inc\>`
   ([@nlf](https://github.com/nlf))
 * [`69e0c4e8c`](https://github.com/npm/cli/commit/69e0c4e8cd684c475a4450c40dfb32c995061aea)
   [#2716](https://github.com/npm/cli/issues/2716)
@@ -2107,7 +2107,7 @@ fix(lib/npm): do not clobber config.execPath
 * [`292929279`](https://github.com/npm/cli/commit/292929279854a06ca60ff737b574cbd6503ec5db)
   [#2368](https://github.com/npm/cli/issues/2368)
   Revert bug-reporting links to GH.
-  Re: <https://blog.npmjs.org/post/188841555980/updates-to-community-docs-more\>
+  Re: \[https://blog.npmjs.org/post/188841555980/updates-to-community-docs-more](https://blog.npmjs.org/post/188841555980/updates-to-community-docs-more)
   ([@tiegz](https://github.com/tiegz))
 * [`f4560626f`](https://github.com/npm/cli/commit/f4560626f09dba4889d752f7f739aa5a5f3da741)
   update `ISSUE_TEMPLATE` with modern links
@@ -2337,7 +2337,7 @@ fix(lib/npm): do not clobber config.execPath
 * [`9c3413fbc`](https://github.com/npm/cli/commit/9c3413fbcb37e79fc0b3d980e0b5810d7961277c)
   [#2034](https://github.com/npm/cli/issues/2034)
   [#2245](https://github.com/npm/cli/issues/2245)
-  `npm link <pkg\>` should not save `package.json`
+  `npm link \<pkg\>` should not save `package.json`
   ([@ruyadorno](https://github.com/ruyadorno))
 
 ### DOCUMENTATION
@@ -2733,7 +2733,7 @@ fix(lib/npm): do not clobber config.execPath
 
 * [`ce4724a38`](https://github.com/npm/cli/commit/ce4724a3835ded9a4a29d8d67323f925461155e5)
   [#1986](https://github.com/npm/cli/pull/1986)
-  check `result` when determining exit code of `ls <filter\>`
+  check `result` when determining exit code of `ls \<filter\>`
   ([@G-Rath](https://github.com/G-Rath))
 * [`00d926f8d`](https://github.com/npm/cli/commit/00d926f8d884872d08d9a0cd73aa9cace2acb91b)
   [#1987](https://github.com/npm/cli/pull/1987)
@@ -3043,7 +3043,7 @@ fix(lib/npm): do not clobber config.execPath
 * [`e225ddcf8`](https://github.com/npm/cli/commit/e225ddcf8d74a6b1cfb24ec49e37e3f5d06e5151)
   [#1862](https://github.com/npm/cli/pull/1862)
   [#1861](https://github.com/npm/cli/issues/1861)
-  respect depth when running `npm ls <pkg\>`
+  respect depth when running `npm ls \<pkg\>`
   ([@ruyadorno](https://github.com/ruyadorno))
 * [`2469ae515`](https://github.com/npm/cli/commit/2469ae5153fa4114a72684376a1b226aa07edf81)
   [#1870](https://github.com/npm/cli/pull/1870)
@@ -3342,7 +3342,7 @@ all dependencies have been updated, many have been removed, and the entire
 
 ### Some High-level Changes and Improvements
 
-- You can install GitHub pull requests by adding `#pull/<number\>` to the
+- You can install GitHub pull requests by adding `#pull/\<number\>` to the
   git url.  So it'd be something like `npm install
   github:user/project#pull/123` to install PR number 123 of the
   `user/project` git repo.  You can of course also use this in
@@ -3559,7 +3559,7 @@ These changes affect `install`, `ci`, `install-test`, `install-ci-test`,
 
 - Support for the `--link` flag (to install a link to a globall-installed
   copy of a module if present, otherwise install locally) has been removed.
-  Local installs are always local, and `npm link <pkg\>` must be used
+  Local installs are always local, and `npm link \<pkg\>` must be used
   explicitly if desired.
 
 - Installing a dependency with the same name as the root project no longer
@@ -3622,7 +3622,7 @@ These changes affect `install`, `ci`, `install-test`, `install-ci-test`,
 - Extraneous dependencies are listed based on their location in the
   `node_modules` tree.
 - `npm ls` only prints the first level of dependencies by default.  You can
-  make it print more of the tree by using `--depth=<n\>` to set a specific
+  make it print more of the tree by using `--depth=\<n\>` to set a specific
   depth, or `--all` to print all of them.
 
 ### `npm pack`, `npm publish`

@@ -95,7 +95,7 @@ the same slot: `npm install <pkg>@<version>` vs `npm install <pkg>@<tag>`.
 
 Tags that can be interpreted as valid semver ranges will be rejected. For
 example, `v1.4` cannot be used as a tag, because it is interpreted by semver as
-`>=1.4.0 <1.5.0`.  See <https://github.com/npm/npm/issues/6082>.
+`>=1.4.0 <1.5.0`.  See [https://github.com/npm/npm/issues/6082](https://github.com/npm/npm/issues/6082).
 
 The simplest way to avoid semver problems with tags is to use tags that do not
 begin with a number or the letter `v`.

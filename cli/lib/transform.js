@@ -112,10 +112,15 @@ const transform = (data, { release, path, frontmatter }) => {
       /\[([^\]]+)\]\(\/((?:commands|configuring-npm|using-npm)\/[^)]+)\)/g,
       (_, p1, p2) => `[${p1}](${release.url}/${p2})`
     )
+    // remove html comments which are not mdx compatible
     .replace(/^<!--\s.*?\s-->$\n/gm, '')
+    // replace markdown autolinks with full markdown links, also for mdx
     .replace(/<(http)(.*?)\\?>/g, '[$1$2]($1$2)')
-    .replace(/<([^@]+?)@([^@]+?)>/g, '[$1@$2](mailto:$1@$2)')
+    // a few specific replacements that cause problems for mdx
+    .replace(/^<i@izs\.me>$/gm, '[i@izs.me](mailto:i@izs.me)')
     .replace(/<2\.0\.0/g, '\\<2.0.0')
+    .replace(/(:\n\n)(\s{4}"funding": {)/g, '$1```\n$2')
+    .replace(/^(\s{4}]$)(\n\n)/gm, '$1\n```$2')
 
   return `---\n${yaml.stringify(attributes).trim()}\n---\n\n${body}`
 }

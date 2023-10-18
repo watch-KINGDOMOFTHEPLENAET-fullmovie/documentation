@@ -2236,7 +2236,7 @@ from installing `npm@next`.
   ([@travi](https://github.com/travi))
 * [`d2ad776f6`](https://github.com/npm/npm/commit/d2ad776f6dcd92ae3937465736dcbca171131343)
   [#20879](https://github.com/npm/npm/pull/20879)
-  When `npm run-script <script\>` fails due to a typo or missing script, npm will
+  When `npm run-script \<script\>` fails due to a typo or missing script, npm will
   now do a "did you mean?..." for scripts that do exist.
   ([@watilde](https://github.com/watilde))
 
@@ -2477,7 +2477,7 @@ Give it a whirl and tell us what you think! See `npm help audit` for full docs!
   detail on the footer about what actions you can take!
   ([@zkat](https://github.com/zkat))
 
-### NEW FEATURE: GIT DEPS AND `npm init <pkg\>`!
+### NEW FEATURE: GIT DEPS AND `npm init \<pkg\>`!
 
 Another exciting change that came with `npm@6` was the new `npm init` command
 that allows for community-authored generators. That means you can, for example,
@@ -2496,7 +2496,7 @@ repository to maintain your organizational scaffolding tools or whatnot. ✨
 
 * [`483e01180`](https://github.com/npm/npm/commit/483e011803af82e63085ef41b7acce5b22aa791c)
   [#20403](https://github.com/npm/npm/pull/20403)
-  Add support for hosted git packages to `npm init <name\>`.
+  Add support for hosted git packages to `npm init \<name\>`.
   ([@jdalton](https://github.com/jdalton))
 
 ### BUGFIXES

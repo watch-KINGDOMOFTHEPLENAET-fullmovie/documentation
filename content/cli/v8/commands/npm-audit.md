@@ -170,7 +170,7 @@ objects.  A "meta-vulnerability" is a dependency that is vulnerable by
 virtue of dependence on vulnerable versions of a vulnerable package.
 
 For example, if the package `foo` is vulnerable in the range `>=1.0.2
-<2.0.0`, and the package `bar` depends on `foo@^1.1.0`, then that version
+\<2.0.0`, and the package `bar` depends on `foo@^1.1.0`, then that version
 of `bar` can only be installed by installing a vulnerable version of `foo`.
 In this case, `bar` is a "metavulnerability".
 

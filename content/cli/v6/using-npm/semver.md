@@ -82,7 +82,7 @@ multiple versions to the utility will just sort them.
 ## Versions
 
 A "version" is described by the `v2.0.0` specification found at
-<https://semver.org/>.
+[https://semver.org/](https://semver.org/).
 
 A leading `"="` or `"v"` character is stripped off and ignored.
 
@@ -117,7 +117,7 @@ For example, the range `>=1.2.7 <1.3.0` would match the versions
 `1.2.7`, `1.2.8`, and `1.2.99`, but not the versions `1.2.6`, `1.3.0`,
 or `1.1.0`.
 
-The range `1.2.7 || >=1.2.9 <2.0.0` would match the versions `1.2.7`,
+The range `1.2.7 || >=1.2.9 \<2.0.0` would match the versions `1.2.7`,
 `1.2.9`, and `1.4.6`, but not the versions `1.2.8` or `2.0.0`.
 
 ### Prerelease Tags
@@ -212,14 +212,14 @@ Any of `X`, `x`, or `*` may be used to "stand in" for one of the
 numeric values in the `[major, minor, patch]` tuple.
 
 * `*` := `>=0.0.0` (Any version satisfies)
-* `1.x` := `>=1.0.0 <2.0.0` (Matching major version)
+* `1.x` := `>=1.0.0 \<2.0.0` (Matching major version)
 * `1.2.x` := `>=1.2.0 <1.3.0` (Matching major and minor versions)
 
 A partial version range is treated as an X-Range, so the special
 character is in fact optional.
 
 * `""` (empty string) := `*` := `>=0.0.0`
-* `1` := `1.x.x` := `>=1.0.0 <2.0.0`
+* `1` := `1.x.x` := `>=1.0.0 \<2.0.0`
 * `1.2` := `1.2.x` := `>=1.2.0 <1.3.0`
 
 #### Tilde Ranges `~1.2.3` `~1.2` `~1`
@@ -229,7 +229,7 @@ comparator.  Allows minor-level changes if not.
 
 * `~1.2.3` := `>=1.2.3 <1.(2+1).0` := `>=1.2.3 <1.3.0`
 * `~1.2` := `>=1.2.0 <1.(2+1).0` := `>=1.2.0 <1.3.0` (Same as `1.2.x`)
-* `~1` := `>=1.0.0 <(1+1).0.0` := `>=1.0.0 <2.0.0` (Same as `1.x`)
+* `~1` := `>=1.0.0 <(1+1).0.0` := `>=1.0.0 \<2.0.0` (Same as `1.x`)
 * `~0.2.3` := `>=0.2.3 <0.(2+1).0` := `>=0.2.3 <0.3.0`
 * `~0.2` := `>=0.2.0 <0.(2+1).0` := `>=0.2.0 <0.3.0` (Same as `0.2.x`)
 * `~0` := `>=0.0.0 <(0+1).0.0` := `>=0.0.0 <1.0.0` (Same as `0.x`)
@@ -255,10 +255,10 @@ However, it presumes that there will *not* be breaking changes between
 `0.2.4` and `0.2.5`.  It allows for changes that are presumed to be
 additive (but non-breaking), according to commonly observed practices.
 
-* `^1.2.3` := `>=1.2.3 <2.0.0`
+* `^1.2.3` := `>=1.2.3 \<2.0.0`
 * `^0.2.3` := `>=0.2.3 <0.3.0`
 * `^0.0.3` := `>=0.0.3 <0.0.4`
-* `^1.2.3-beta.2` := `>=1.2.3-beta.2 <2.0.0` Note that prereleases in
+* `^1.2.3-beta.2` := `>=1.2.3-beta.2 \<2.0.0` Note that prereleases in
   the `1.2.3` version will be allowed, if they are greater than or
   equal to `beta.2`.  So, `1.2.3-beta.4` would be allowed, but
   `1.2.4-beta.2` would not, because it is a prerelease of a
@@ -271,7 +271,7 @@ When parsing caret ranges, a missing `patch` value desugars to the
 number `0`, but will allow flexibility within that value, even if the
 major and minor versions are both `0`.
 
-* `^1.2.x` := `>=1.2.0 <2.0.0`
+* `^1.2.x` := `>=1.2.0 \<2.0.0`
 * `^0.0.x` := `>=0.0.0 <0.1.0`
 * `^0.0` := `>=0.0.0 <0.1.0`
 
@@ -279,7 +279,7 @@ A missing `minor` and `patch` values will desugar to zero, but also
 allow flexibility within those values, even if the major version is
 zero.
 
-* `^1.x` := `>=1.0.0 <2.0.0`
+* `^1.x` := `>=1.0.0 \<2.0.0`
 * `^0.x` := `>=0.0.0 <1.0.0`
 
 ### Range Grammar

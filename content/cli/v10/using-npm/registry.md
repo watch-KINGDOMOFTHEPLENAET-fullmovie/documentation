@@ -24,8 +24,8 @@ that implements the CommonJS Package Registry specification for reading
 package info.
 
 npm is configured to use the **npm public registry** at
-<https://registry.npmjs.org> by default. Use of the npm public registry is
-subject to terms of use available at <https://docs.npmjs.com/policies/terms>.
+[https://registry.npmjs.org](https://registry.npmjs.org) by default. Use of the npm public registry is
+subject to terms of use available at [https://docs.npmjs.com/policies/terms](https://docs.npmjs.com/policies/terms).
 
 You can configure npm to use any compatible registry you like, and even run
 your own registry. Use of someone else's registry may be governed by their
@@ -36,7 +36,7 @@ write APIs as well, to allow for publishing packages and managing user
 account information.
 
 The npm public registry is powered by a CouchDB database,
-of which there is a public mirror at <https://skimdb.npmjs.com/registry>.
+of which there is a public mirror at [https://skimdb.npmjs.com/registry](https://skimdb.npmjs.com/registry).
 
 The registry URL used is determined by the scope of the package (see
 [`scope`](/cli/v10/using-npm/scope). If no scope is specified, the default registry is
@@ -89,7 +89,7 @@ See [`package.json`](/cli/v10/configuring-npm/package-json) for more info on wha
 
 ### Where can I find my (and others') published packages?
 
-<https://www.npmjs.com/>
+[https://www.npmjs.com/](https://www.npmjs.com/)
 
 ### See also
 

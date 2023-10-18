@@ -9,8 +9,6 @@ redirect_from:
   - /cli/v9/misc/changelog
 ---
 
-# Changelog
-
 ## [9.9.0](https://github.com/npm/cli/compare/v9.8.1...v9.9.0) (2023-10-06)
 
 ### Features
@@ -827,11 +825,11 @@ redirect_from:
 * `--timing` file changes:
     - When run with the `--timing` flag, `npm` now writes timing data to a
     file alongside the debug log data, respecting the `logs-dir` option and
-    falling back to `<CACHE\>/_logs/` dir, instead of directly inside the
+    falling back to `\<CACHE\>/_logs/` dir, instead of directly inside the
     cache directory.
     - The timing file data is no longer newline delimited JSON, and instead
-    each run will create a uniquely named `<ID\>-timing.json` file, with the
-    `<ID\>` portion being the same as the debug log.
+    each run will create a uniquely named `\<ID\>-timing.json` file, with the
+    `\<ID\>` portion being the same as the debug log.
     - Finally, the data inside the file now has three top level keys,
     `metadata`, `timers, and `unfinishedTimers` instead of everything being
     a top level key.

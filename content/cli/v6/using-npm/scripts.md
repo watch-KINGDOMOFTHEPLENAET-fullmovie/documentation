@@ -60,7 +60,7 @@ There are some special life cycle scripts that happen only in certain situations
 
 Since `npm@1.1.71`, the npm CLI has run the `prepublish` script for both `npm publish` and `npm install`, because it's a convenient way to prepare a package for use (some common use cases are described in the section below).  It has also turned out to be, in practice, [very confusing](https://github.com/npm/npm/issues/10074).  As of `npm@4.0.0`, a new event has been introduced, `prepare`, that preserves this existing behavior. A _new_ event, `prepublishOnly` has been added as a transitional strategy to allow users to avoid the confusing behavior of existing npm versions and only run on `npm publish` (for instance, running the tests one last time to ensure they're in good shape).
 
-See <https://github.com/npm/npm/issues/10074> for a much lengthier justification, with further reading, for this change.
+See [https://github.com/npm/npm/issues/10074](https://github.com/npm/npm/issues/10074) for a much lengthier justification, with further reading, for this change.
 
 **Use Cases**
 

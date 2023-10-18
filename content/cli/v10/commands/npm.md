@@ -167,7 +167,7 @@ check the issues list.
 ### Bugs
 
 When you find issues, please report them:
-<https://github.com/npm/cli/issues>
+[https://github.com/npm/cli/issues](https://github.com/npm/cli/issues)
 
 Please be sure to follow the template and bug reporting guidelines.
 
@@ -175,11 +175,11 @@ Please be sure to follow the template and bug reporting guidelines.
 
 Discuss new feature ideas on our discussion forum:
 
-* <https://github.com/npm/feedback>
+* [https://github.com/npm/feedback](https://github.com/npm/feedback)
 
 Or suggest formal RFC proposals:
 
-* <https://github.com/npm/rfcs>
+* [https://github.com/npm/rfcs](https://github.com/npm/rfcs)
 
 ### See Also
 

@@ -15,8 +15,6 @@ redirect_from:
   - /using-npm/changelog
 ---
 
-# Changelog
-
 ## [10.2.0](https://github.com/npm/cli/compare/v10.1.0...v10.2.0) (2023-10-02)
 
 ### Features
@@ -107,7 +105,7 @@ redirect_from:
 
 ### ⚠️ BREAKING CHANGES
 
-* support for node <=16.13 has been removed
+* support for node \<=16.13 has been removed
 * support for node 14 has been removed
 * support for node 14 has been removed
 * support for node 14 has been removed

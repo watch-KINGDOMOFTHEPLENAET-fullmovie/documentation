@@ -63,10 +63,15 @@ const writeChangelog = async ({ release, nav, cwd, srcPath, contentPath }) => {
   const title = 'Changelog'
   const changelog = await gh.getFile({ ref: release.branch, path: srcPath })
 
+  // mdx needs > and < escaped
+  const escaped = changelog.toString()
+    .replace(/([^\\])>/g, '$1\\>')
+    .replace(/([^\\])</g, '$1\\<')
+    .replace(/^#\s+Changelog\s+$\n/gm, '')
+
   await fs.writeFile(
     join(cwd, contentPath + '.md'),
-    // mdx needs `>` escaped
-    Transform.sync(changelog.toString().replace(/([^\\])>/g, '$1\\>'), {
+    Transform.sync(escaped, {
       release,
       path: contentPath,
       frontmatter: {

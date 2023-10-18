@@ -36,9 +36,9 @@ used (see [`config`](/cli/v9/using-npm/config)).
 When using `legacy` for your `auth-type`, the username and password, are
 read in from prompts.
 
-To reset your password, go to <https://www.npmjs.com/forgot>
+To reset your password, go to [https://www.npmjs.com/forgot](https://www.npmjs.com/forgot)
 
-To change your email address, go to <https://www.npmjs.com/email-edit>
+To change your email address, go to [https://www.npmjs.com/email-edit](https://www.npmjs.com/email-edit)
 
 You may use this command multiple times with the same user account to
 authorize on a new machine.  When authenticating on a new machine,

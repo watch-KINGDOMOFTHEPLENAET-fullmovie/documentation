@@ -18,8 +18,8 @@ that implements the CommonJS Package Registry specification for reading
 package info.
 
 npm is configured to use npm, Inc.'s public registry at
-<https://registry.npmjs.org> by default. Use of the npm public registry is
-subject to terms of use available at <https://www.npmjs.com/policies/terms>.
+[https://registry.npmjs.org](https://registry.npmjs.org) by default. Use of the npm public registry is
+subject to terms of use available at [https://www.npmjs.com/policies/terms](https://www.npmjs.com/policies/terms).
 
 You can configure npm to use any compatible registry you like, and even run
 your own registry. Use of someone else's registry may be governed by their
@@ -31,8 +31,8 @@ account information.
 
 The npm public registry is powered by a CouchDB database,
 of which there is a public mirror at
-<https://skimdb.npmjs.com/registry>.  The code for the couchapp is
-available at <https://github.com/npm/npm-registry-couchapp>.
+[https://skimdb.npmjs.com/registry](https://skimdb.npmjs.com/registry).  The code for the couchapp is
+available at [https://github.com/npm/npm-registry-couchapp](https://github.com/npm/npm-registry-couchapp).
 
 The registry URL used is determined by the scope of the package (see
 [`scope`](/cli/v6/using-npm/scope). If no scope is specified, the default registry is used, which is
@@ -99,7 +99,7 @@ effectively implement the entire CouchDB API anyway.
 
 ### Is there a website or something to see package docs and such?
 
-Yes, head over to <https://www.npmjs.com/>
+Yes, head over to [https://www.npmjs.com/](https://www.npmjs.com/)
 
 ### See also
 

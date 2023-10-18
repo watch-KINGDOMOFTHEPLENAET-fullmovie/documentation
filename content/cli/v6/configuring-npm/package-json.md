@@ -51,7 +51,7 @@ Some tips:
 * The name will probably be passed as an argument to require(), so it should
   be something short, but also reasonably descriptive.
 * You may want to check the npm registry to see if there's something by that name
-  already, before you get too attached to it. <https://www.npmjs.com/>
+  already, before you get too attached to it. [https://www.npmjs.com/](https://www.npmjs.com/)
 
 A name can be optionally prefixed by a scope, e.g. `@myorg/mypackage`. See
 [`scope`](/cli/v6/using-npm/scope) for more detail.
@@ -207,6 +207,7 @@ You can specify an object containing an URL that provides up-to-date
 information about ways to help fund development of your package, or
 a string URL, or an array of these:
 
+```
     "funding": {
       "type" : "individual",
       "url" : "http://example.com/donate"
@@ -230,6 +231,7 @@ a string URL, or an array of these:
         "url" : "https://www.patreon.com/my-account"
       }
     ]
+```
 
 
 Users can use the `npm fund` subcommand to list the `funding` URLs of all

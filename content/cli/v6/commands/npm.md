@@ -151,7 +151,7 @@ the contributing guidelines and check the issues list.
 When you find issues, please report them:
 
 * web:
-  <https://npm.community/c/bugs>
+  [https://npm.community/c/bugs](https://npm.community/c/bugs)
 
 Be sure to follow the template and bug reporting guidelines. You can also ask
 for help in the [support forum](https://npm.community/c/support) if you're
@@ -163,7 +163,7 @@ reproduction to report.
 [Isaac Z. Schlueter](http://blog.izs.me/) ::
 [isaacs](https://github.com/isaacs/) ::
 [@izs](https://twitter.com/izs) ::
-<i@izs.me>
+[i@izs.me](mailto:i@izs.me)
 
 ### See Also
 * [npm help](/cli/v6/commands/npm-help)

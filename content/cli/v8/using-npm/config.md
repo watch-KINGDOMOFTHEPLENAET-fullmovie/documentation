@@ -1662,7 +1662,7 @@ If `--auth-type=sso`, the type of SSO type to use.
 #### `tmp`
 
 * Default: The value returned by the Node.js `os.tmpdir()` method
-  <https://nodejs.org/api/os.html#os_os_tmpdir>
+  [https://nodejs.org/api/os.html#os_os_tmpdir](https://nodejs.org/api/os.html#os_os_tmpdir)
 * Type: Path
 * DEPRECATED: This setting is no longer used. npm stores temporary files in a
   special location in the cache, and they are managed by
